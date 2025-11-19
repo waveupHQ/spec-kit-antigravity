@@ -1,9 +1,4 @@
 ---
-description: 
----
-
----
-type: workflow
 description: "Visual and logic verification of the feature."
 model: gemini-3-pro
 ---

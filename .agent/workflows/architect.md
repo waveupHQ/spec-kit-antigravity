@@ -1,14 +1,10 @@
 ---
-description: 
----
-
----
-type: workflow
 description: "Generate technical plans and parallel task graphs."
 model: gemini-3-pro
 ---
 
 ## User Input
+
 $ARGUMENTS
 
 ## Antigravity Agent Instructions
