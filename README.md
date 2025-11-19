@@ -1,14 +1,14 @@
 # 🚀 Spec Kit for Google Antigravity
 
-**Build software at the speed of thought.** This kit adapts the [Spec-Driven Development](https://github.com/github/spec-kit) methodology for **Google Antigravity**, leveraging Gemini 3's massive context window, native Artifacts, and Manager View orchestration.
+**Build software at the speed of thought.** This kit adapts [Spec-Driven Development](https://github.com/github/spec-kit) for **Google Antigravity**, leveraging the native `.agent` workflow engine.
 
 ## ⚡️ Quick Start
 
-1. **Clone this repo** into your Antigravity workspace.
-2. **Open "Settings > Custom Commands"** and point to the `.antigravity/commands/` folder (or let Antigravity auto-detect them).
+1. **Clone this repo** into your workspace.
+2. **Antigravity** will automatically detect the `.agent/workflows` directory.
 3. **Start Vibe Coding**:
 
-| Command | Phase | Description |
+| Workflow | Phase | Description |
 | :--- | :--- | :--- |
 | **`/define`** | **Spec** | Drag in screenshots/sketches. Gemini 3 creates a rigorous spec. |
 | **`/architect`** | **Plan** | Generates technical plans & parallel task graphs for Manager View. |

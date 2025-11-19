@@ -1,7 +1,9 @@
-# Antigravity Native Commands
-
-## execute.md
 ---
+description: 
+---
+
+---
+type: workflow
 description: "Spin up parallel agents to build the feature."
 mode: manager
 ---
@@ -22,4 +24,4 @@ mode: manager
    - **Diff Artifacts**: Generate a summary of changes for every completed checkpoint.
 
 3. **Completion**:
-   - When all agents report "Done", trigger the `/verify` protocol.
+   - When all agents report "Done", trigger the `/verify` workflow.

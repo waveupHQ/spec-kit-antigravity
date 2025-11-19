@@ -1,7 +1,9 @@
-# Antigravity Native Commands
-
-## architect.md
 ---
+description: 
+---
+
+---
+type: workflow
 description: "Generate technical plans and parallel task graphs."
 model: gemini-3-pro
 ---

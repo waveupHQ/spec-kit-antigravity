@@ -1,7 +1,9 @@
-# Antigravity Native Commands
-
-## define.md
 ---
+description: 
+---
+
+---
+type: workflow
 description: "Create a rigorous feature specification using Gemini 3's reasoning."
 model: gemini-3-pro
 ---
