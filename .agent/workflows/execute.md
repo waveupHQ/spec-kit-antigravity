@@ -1,24 +1,13 @@
 ---
-description: "Spin up parallel agents to build the feature."
-mode: manager
+description: Build the feature from the plan.
 ---
 
-## Antigravity Manager Instructions
+## Instructions
 
-**ACTIVATE MANAGER VIEW**
-
-1. **Orchestrate**:
-
-   - Parse `tasks.md`.
-   - Assign **Group A (Frontend)** tasks to Agent 1.
-   - Assign **Group B (Backend)** tasks to Agent 2.
-   - _Instruction_: "Execute tasks in parallel. Sync on shared Artifacts (e.g., `api-schema.json`)."
-
-2. **Vibe Coding Loop**:
-
-   - Monitor agent outputs.
-   - If an agent gets stuck, auto-debug using search.
-   - **Diff Artifacts**: Generate a summary of changes for every completed checkpoint.
-
-3. **Completion**:
-   - When all agents report "Done", trigger the `/verify` workflow.
+1.  **Read**: Open `specs/[feature_name]/plan.md`.
+2.  **Execute**:
+    * Look for the **Step-by-Step** section with checkboxes.
+    * Execute the unchecked items `- [ ]`.
+3.  **Vibe Check**:
+    * After every 2-3 steps, verify the code visually.
+    * Mark steps as `- [x]` in `plan.md` as you finish them.

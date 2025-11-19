@@ -1,23 +1,18 @@
 ---
-description: "Generate technical plans and parallel task graphs."
-model: gemini-3-pro
+description: Create a unified implementation plan.
 ---
 
 ## User Input
-
 $ARGUMENTS
 
-## Antigravity Agent Instructions
+## Instructions
 
-1. **Read Spec**: Load the active `spec.md`.
-2. **Technical Plan**:
-   - Create `specs/[feature_name]/plan.md`.
-   - Define Tech Stack (Default: Google Cloud Native unless specified).
-   - Define Data Models (JSON/Protobuf).
-3. **Task Graph (Manager View)**:
-   - Create `specs/[feature_name]/tasks.md`.
-   - **CRITICAL**: Structure tasks for **Parallel Execution**.
-     - Group A: Frontend Agents (UI, Client Logic).
-     - Group B: Backend Agents (API, DB).
-     - Group C: QA Agents (Test scaffolding).
-4. **Output**: Display the **Task Graph Artifact**.
+1.  **Read**: Load the `spec.md` provided by the user.
+2.  **Draft Plan**:
+    * Create/Update **ONE file**: `specs/[feature_name]/plan.md`.
+    * **Section 1: Architecture**: Briefly list changed files and data models.
+    * **Section 2: Step-by-Step**: List the implementation steps (Todo list) directly in this file.
+3.  **Format**:
+    * Use checkboxes `- [ ]` for the steps so they are clickable.
+    * Mark steps as `[Frontend]` or `[Backend]`.
+4.  **Constraint**: Do NOT create `tasks.md`. Keep it all in `plan.md`.

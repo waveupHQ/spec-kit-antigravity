@@ -1,6 +1,5 @@
 ---
-description: "Clean up legacy code before feature work."
-model: gemini-3-pro
+description: Clean up legacy code before feature work.
 ---
 
 ## User Input

@@ -1,6 +1,5 @@
 ---
-description: "Visual and logic verification of the feature."
-model: gemini-3-pro
+description: Visual and logic verification of the feature.
 ---
 
 ## Antigravity QA Instructions
